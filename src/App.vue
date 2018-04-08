@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1711467488&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1711467488:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
   </div>
 </template>
 
@@ -15,14 +14,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
