@@ -1,0 +1,30 @@
+$headerColor: #373D41;
+$headerHeight: 54px;
+
+$containerWidth: 1000px;
+
+// 公用的
+.container {
+  margin: 0px auto;
+  width: $containerWidth;
+}
+
+// 灰色顶栏
+.section.header {
+  background-color: $headerColor;
+  line-height: $headerHeight;
+  overflow: hidden;
+  a {
+    color: #FFF;
+    text-decoration: none;
+    &:nth-child(1) {
+      float: left;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    &:nth-child(2) {
+      float: right;
+      font-size: 20px;
+    }
+  }
+}

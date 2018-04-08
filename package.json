@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/FairyEver/furen-single-page#readme",
   "dependencies": {
+    "node-sass": "^4.8.3",
     "normalize.css": "^8.0.0"
   }
 }

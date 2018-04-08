@@ -132,17 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":15}],21:[function(require,module,exports) {
+},{"./bundle-url":15}],11:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":14}],12:[function(require,module,exports) {
-'use strict';
-
-require('normalize.css');
-},{"normalize.css":21}],22:[function(require,module,exports) {
+},{"_css_loader":14}],34:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -265,5 +261,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[22,12])
-//# sourceMappingURL=/dist/972f101bec8445dffc75785f00c8c484.map
+},{}]},{},[34])
+//# sourceMappingURL=/dist/d3ffa675757cd9c9373d251afe61276c.map

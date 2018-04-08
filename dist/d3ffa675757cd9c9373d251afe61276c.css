@@ -1,0 +1,18 @@
+.container {
+  margin: 0px auto;
+  width: 1000px; }
+
+.section.header {
+  background-color: #373D41;
+  line-height: 54px;
+  overflow: hidden; }
+  .section.header a {
+    color: #FFF;
+    text-decoration: none; }
+    .section.header a:nth-child(1) {
+      float: left;
+      font-weight: bold;
+      font-size: 30px; }
+    .section.header a:nth-child(2) {
+      float: right;
+      font-size: 20px; }
