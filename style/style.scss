@@ -3,46 +3,17 @@ $headerHeight: 54px;
 
 $containerWidth: 1000px;
 
-// 公用的
-.container {
-  margin: 0px auto;
-  width: $containerWidth;
-}
-// 灰色顶栏
-.section.header {
-  background-color: $headerColor;
-  line-height: $headerHeight;
-  overflow: hidden;
-  a {
-    color: #FFF;
-    text-decoration: none;
-    &:nth-child(1) {
-      float: left;
-      font-weight: bold;
-      font-size: 30px;
-    }
-    &:nth-child(2) {
-      float: right;
-      font-size: 20px;
-    }
-  }
-}
-
 /*logo部分*/
 .module1{
-    width: 100%;
-    margin: 0 auto;
-    background-color: #373d41;
-}
-
-.module1 .module1-c{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #373d41;
+  .module1-c {
     width: 1000px;
     height: 54px;
     margin: 0 auto;
-}
-.module1 .module1-c img{
-    height: 30px;
-    margin: 12px 0;
+    overflow: hidden;
+  }
 }
 
 .module1 .module1-c span{
