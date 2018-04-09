@@ -11,6 +11,7 @@
   </head>
   
   <body>
+    <a id="chart" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1711467488&site=qq&menu=yes" style="display: none;"></a>
     <!--logo部分-->
     <div class="module1" id="top">
       <div class="module1-c">
@@ -1062,7 +1063,7 @@
         </div>
       </div>
     </div>
-    <div class="section11" style="display: none;">
+    <div class="section11">
       <div class="section111">
         <div class="container">
           <div class="ul-ul">报名时间及流程查询&gt;&gt;
@@ -1137,22 +1138,26 @@
               <div class="form-group">
                 <div class="input-left" style="padding-left: 0;">姓名</div>
                 <div class="input-left">
-                  <input name="UserName10" id="UserName10" type="text" value="必填" onfocus="if(this.value==&#39;必填&#39;){this.value=&#39;&#39;;};this.select();"></div>
+                  <input name="UserName10" id="UserName10" type="text" value="必填"></div>
               </div>
             </div>
             <div class="input-left">
               <div class="form-group">
                 <div class="input-left across-phone">接受资料的手机号码</div>
                 <div class="input-left across-phone-input">
-                  <input name="UserPhone10" id="UserPhone10" type="text" value="必填" onfocus="if(this.value==&#39;必填&#39;){this.value=&#39;&#39;;};this.select();"></div>
+                  <input name="UserPhone10" id="UserPhone10" type="text" value="必填"></div>
               </div>
             </div>
             <div class="input-left" style="padding-right: 0;">
-              <input class="input-left-btn" readonly="readonly" onclick="sub(10, &#39;消防获取全套考辅资料&#39;)" value="提交领取全部复习资料+复习大纲"></div>
+              <input class="input-left-btn" readonly="readonly" value="提交领取全部复习资料+复习大纲"></div>
           </div>
         </form>
       </div>
     </div>
   </body>
-
+  <script>
+    function chart () {
+      $('#chart').get(0).click()
+    }
+  </script>
 </html>
