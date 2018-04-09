@@ -71,13 +71,13 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({45:[function(require,module,exports) {
+})({46:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":44}],64:[function(require,module,exports) {
+},{"_css_loader":45}],64:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -99,7 +99,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58101' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62668' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -331,6 +331,6 @@ module.exports = function loadJSBundle(bundle) {
   });
 };
 },{}],0:[function(require,module,exports) {
-var b=require(66);b.register("js",require(68));b.load([["ec8b00111eed3e5238e7212266820ebf.js",44]]);
+var b=require(66);b.register("js",require(68));b.load([["ec8b00111eed3e5238e7212266820ebf.js",45]]);
 },{}]},{},[64,0])
 //# sourceMappingURL=/dist/ded46930f904f525ed72a4fad9f3ff0f.map

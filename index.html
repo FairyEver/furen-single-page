@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>site</title>
+    <script src="./script/jquery-1.4.2.min.js"></script>
     <script src="./script/index.js"></script>
     <link rel="stylesheet" href="./style/index.scss">
   </head>
@@ -608,34 +609,6 @@
         </div>
         <a class="bn anniu1" href="javascript:void(0);" onclick="chart()">立即咨询课程课表</a></div>
     </div>
-    <script>$(document).ready(function() {
-
-        $(".swiper-container").hover(function() {
-          $(".swiper-button-prev").show();
-          $(".swiper-button-next").show();
-        },
-        function() {
-          $(".swiper-button-prev").hide();
-          $(".swiper-button-next").hide();
-        });
-
-      });
-
-      $(".swiper-container").mouseenter(function() {
-        mySwiper.stopAutoplay();
-      }).mouseleave(function() {
-        mySwiper.startAutoplay();
-      })
-
-      var mySwiper = new Swiper('.swiper-container', {
-        slidesPerView: 5,
-        spaceBetween: 10,
-        autoplay: 1000,
-        centeredSlides: true,
-        loop: true,
-        prevButton: '.swiper-button-prev',
-        nextButton: '.swiper-button-next',
-      })</script>
     <div class="shuang11">
       <div class="shuang11-c">
         <a href="javascript:void(0);" onclick="chart()">
@@ -1052,7 +1025,7 @@
         var listPanel = $('.activity ul');
         var nubcers = 0; //向上滚动top值
         function up() { //向上滚动
-          //            var height = $('li:first').height();
+          // var height = $('li:first').height();
           listPanel.animate({
             'top': (nubcers - 50) + 'px'
           },
@@ -1064,9 +1037,9 @@
             up();
           });
         }
-
         up();
-      });</script>
+      });
+    </script>
     <script type="text/javascript">$(function() {
         var listPanel = $('.activity .aaa');
         var nubcers = 0; //向上滚动top值
@@ -1088,7 +1061,8 @@
         }
 
         up();
-      });</script>
+      });
+    </script>
     <!--13年优质品牌专业-->
     <div class="box3" id="#hhjx">
       <div class="container">
