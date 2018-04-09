@@ -1,0 +1,186 @@
+@charset "utf-8";
+	/* 禁用iPhone中Safari的字号自动调整 */
+html {
+	font-size:100px;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	/* 解决IOS默认滑动很卡的情况 */
+    -webkit-overflow-scrolling:touch;
+}
+/*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+a,button,input,optgroup,select,textarea {
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input,button {
+	outline:none;
+	border:none;
+}
+s {
+	text-decoration:none;
+}
+a,img {
+	-webkit-touch-callout:none;
+	/*禁止长按链接与图片弹出菜单*/
+}
+/* 设置HTML5元素为块 */
+article,aside,details,figcaption,figure,footer,header,menu,nav,section,a {
+	display:block;
+}
+
+/* 初始化 */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside,details,figcaption,figure,footer,header,menu,nav,section {
+	margin:0;
+	padding:0;
+	font-weight:400;
+}
+body {
+	max-width:1920px;
+	width:100%;
+	color:#000;
+	/*background-color:#000;
+	*/
+    font-size:14px;
+	margin:0 auto;
+	font-family:'Microsoft YaHei';
+}
+ul,li {
+	list-style-type:none;
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	visibility:hidden;
+	height:0;
+	clear:both;
+}
+.clearfix {
+	zoom:1;
+}
+a {
+    text-decoration:none;
+	font-family:'Microsoft YaHei',Tahoma,Arial,sans-serif;
+	cursor:pointer;
+	display:block;
+}
+a:hover {
+	text-decoration:none;
+}
+ul,ol,li {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-family:'Microsoft YaHei';
+}
+img {
+	border:none;
+}
+input {
+	font-family:'Microsoft YaHei';
+}
+/*单行溢出*/
+.one-txt-cut {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+/*多行溢出 手机端使用*/
+.txt-cut {
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+    -webkit-box-orient:vertical;
+}
+.w {
+	width:1000px;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right !important;
+}
+.db {
+	display:block !important;
+}
+.dn {
+	display:none;
+}
+.ml {
+	margin-left:0 !important;
+}
+.pl {
+	padding-left:0 !important;
+}
+.mb {
+	margin-bottom:0 !important;
+}
+.mr {
+	margin-right:0 !important;
+}
+.mt35 {
+	margin-top:35px;
+}
+.mb20 {
+	margin-bottom:20px;
+	background-color:#fff;
+}
+.bdn {
+	border:none !important;
+}
+.text:hover {
+	color:#fbe55d !important;
+}
+.text2:hover {
+	color:#ee534f !important;
+}
+i {
+	font-style:normal;
+}
+.anniu button:hover {
+	/*color:#ee534f !important;
+	*/
+    background-color:#e12c20 !important;
+	color:#fff !important;
+}
+.anniu1:hover {
+	/*color:#ee534f !important;
+	*/
+    background-color:#e12c20 !important;
+	color:#fff !important;
+}
+/*版权部分*/
+.module13 {
+	width:100%;
+	height:150px;
+	margin:0 auto;
+	background-color:#3f3f3f;
+	margin-bottom:80px;
+}
+.module13 .module13-c {
+	width:1000px;
+	height:100px;
+	margin:0 auto;
+	color:#fff;
+}
+.module13 .module13-c .left,.module13 .module13-c .right {
+	width:50%;
+	padding-top:40px;
+	height:100px;
+	float:left;
+}
+.module13 .module13-c .right {
+	float:right;
+	padding-top:30px;
+}
+.module13 .module13-c .left p {
+	font:400 14px/26px 'Microsoft YaHei';
+}
+.module13 .module13-c .right h2 {
+	font:400 26px/40px 'Microsoft YaHei';
+	text-align:right;
+}
+.module13 .module13-c .right p {
+	font:400 18px/26px 'Microsoft YaHei';
+	text-align:right;
+}
