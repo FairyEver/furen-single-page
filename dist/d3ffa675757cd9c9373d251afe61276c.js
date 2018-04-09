@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({63:[function(require,module,exports) {
+})({109:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],46:[function(require,module,exports) {
+},{}],93:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":63}],4:[function(require,module,exports) {
+},{"./bundle-url":109}],55:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./base.css":47,"./../image/bg2.png":48,"./../image/ul1.png":50,"./../image/ul2.png":49,"./../image/til2.png":51,"./../image/pc_071.png":52,"./../image/li1.png":53,"./../image/li2.png":54,"./../image/li3.png":55,"./../image/li4.png":56,"./../image/li5.png":57,"./../image/li6.png":59,"./../image/bg2-1.png":58,"./../image/bg2-2.png":60,"./../image/pc_31.png":61,"./../image/bottom-bg.jpg":62,"_css_loader":46}],255:[function(require,module,exports) {
+},{"./base.css":94,"./../image/bg2.png":95,"./../image/ul1.png":96,"./../image/ul2.png":97,"./../image/pc_071.png":98,"./../image/li1.png":99,"./../image/li2.png":100,"./../image/li3.png":101,"./../image/li4.png":102,"./../image/li5.png":103,"./../image/li6.png":104,"./../image/bg2-1.png":105,"./../image/bg2-2.png":106,"./../image/pc_31.png":108,"./../image/bottom-bg.jpg":107,"_css_loader":93}],223:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51535' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53649' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -261,7 +261,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],256:[function(require,module,exports) {
+},{}],224:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -340,7 +340,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":63}],257:[function(require,module,exports) {
+},{"./bundle-url":109}],225:[function(require,module,exports) {
 module.exports = function loadCSSBundle(bundle) {
   return new Promise(function (resolve, reject) {
     var link = document.createElement('link');
@@ -360,6 +360,6 @@ module.exports = function loadCSSBundle(bundle) {
   });
 };
 },{}],0:[function(require,module,exports) {
-var b=require(256);b.register("css",require(257));b.load([["ded46930f904f525ed72a4fad9f3ff0f.css",47],["cea7c16d7885e3260de33de742380805.png",48],["1a8269cc2ff1c1c1d22cedaef4615432.png",50],["f114489ad7f106280dad33d469c18d3f.png",49],["55a2053a0c627b52f2983eb9f0af2857.png",51],["88fb09e88cd0cdf8ff9298ed04394a8a.png",52],["f4f9243932589d722c9dddbb9655d80a.png",53],["eb83832ba927f811d8f4581246f9130f.png",54],["94db3097ea94ec19008a09c96d8b8161.png",55],["d5114bfccf775145a59b9a02a9a30551.png",56],["a23552ee9d6ace3048044e3b707ff4ca.png",57],["f787f2dded84c248dd0082f59b876c23.png",59],["9de5eea170efa320e342638a58dcd50e.png",58],["a5dafafcf6ac30a8749e2f61faadfa06.png",60],["6e1906a1271e4ddc94449c4b744269b5.png",61],["f1c72a8ee45c178391dd0fb0ca70a752.jpg",62]]);
-},{}]},{},[255,0])
+var b=require(224);b.register("css",require(225));b.load([["ded46930f904f525ed72a4fad9f3ff0f.css",94],["cea7c16d7885e3260de33de742380805.png",95],["1a8269cc2ff1c1c1d22cedaef4615432.png",96],["f114489ad7f106280dad33d469c18d3f.png",97],["88fb09e88cd0cdf8ff9298ed04394a8a.png",98],["f4f9243932589d722c9dddbb9655d80a.png",99],["eb83832ba927f811d8f4581246f9130f.png",100],["94db3097ea94ec19008a09c96d8b8161.png",101],["d5114bfccf775145a59b9a02a9a30551.png",102],["a23552ee9d6ace3048044e3b707ff4ca.png",103],["f787f2dded84c248dd0082f59b876c23.png",104],["9de5eea170efa320e342638a58dcd50e.png",105],["a5dafafcf6ac30a8749e2f61faadfa06.png",106],["6e1906a1271e4ddc94449c4b744269b5.png",108],["f1c72a8ee45c178391dd0fb0ca70a752.jpg",107]]);
+},{}]},{},[223,0])
 //# sourceMappingURL=/dist/d3ffa675757cd9c9373d251afe61276c.map

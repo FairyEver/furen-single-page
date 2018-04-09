@@ -71,13 +71,13 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({47:[function(require,module,exports) {
+})({94:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":46}],64:[function(require,module,exports) {
+},{"_css_loader":93}],110:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -99,7 +99,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51535' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53649' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -200,7 +200,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],63:[function(require,module,exports) {
+},{}],109:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -230,7 +230,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],66:[function(require,module,exports) {
+},{}],112:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -309,7 +309,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":63}],67:[function(require,module,exports) {
+},{"./bundle-url":109}],114:[function(require,module,exports) {
 module.exports = function loadJSBundle(bundle) {
   return new Promise(function (resolve, reject) {
     var script = document.createElement('script');
@@ -331,6 +331,6 @@ module.exports = function loadJSBundle(bundle) {
   });
 };
 },{}],0:[function(require,module,exports) {
-var b=require(66);b.register("js",require(67));b.load([["ec8b00111eed3e5238e7212266820ebf.js",46]]);
-},{}]},{},[64,0])
+var b=require(112);b.register("js",require(114));b.load([["ec8b00111eed3e5238e7212266820ebf.js",93]]);
+},{}]},{},[110,0])
 //# sourceMappingURL=/dist/ded46930f904f525ed72a4fad9f3ff0f.map

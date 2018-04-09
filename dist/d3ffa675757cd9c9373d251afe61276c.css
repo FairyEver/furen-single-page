@@ -500,63 +500,15 @@
   background-color: #fff;
   color: #ee534f; }
 
-/*自助查询系统*/
-.module5 {
-  width: 100%;
-  /*height: 734px;*/
-  height: 171px;
-  margin: 0 auto;
-  background: url("55a2053a0c627b52f2983eb9f0af2857.png");
-  /*padding: 36px 0;*/
-  padding: 36.5px 0; }
-
-.module5 .module5-c {
-  width: 1000px;
-  /*height: 620px;*/
-  margin: 0 auto;
-  color: #fff; }
-
-.module5 .module5-c h2 {
-  text-align: center;
-  font-size: 36px; }
-
-.module5 .module5-c p {
-  text-align: center;
-  font-size: 18px;
-  line-height: 66px; }
-
-.module5 .module5-c .form {
-  width: 930px;
-  /*height: 38px;*/
-  margin: 0 auto;
-  /*background-color: #ccc;*/ }
-
-.module5 .module5-c .form input,
-.module5 .module5-c .form button {
-  width: 171px;
-  height: 38px;
-  float: left;
-  font-size: 18px; }
-
-.module5 .module5-c .form input {
-  margin-right: 18px;
-  color: #000;
-  text-indent: 15px; }
-
-.module5 .module5-c .form button {
-  background-color: #ee534f; }
-
 /*报考城市咨询*/
 .module6 {
   width: 100%;
-  height: 780px;
+  height: 530px;
   margin: 0 auto;
-  /*background-color: #ccc;*/
   text-align: center; }
 
 .module6 .module6-c {
   width: 1000px;
-  /*height: 620px;*/
   margin: 0 auto; }
 
 .module6 .module6-c h2 {
@@ -747,24 +699,29 @@
 
 .module7 .module7-c .module7_right {
   width: 426px;
-  height: 479px;
+  height: 415px;
   background-color: #fff;
   float: right;
-  padding: 0 32px; }
-
-.module7_right .r_form.top {
-  border-bottom: 1px solid #999; }
+  padding: 32px; }
 
 .module7_right .r_form {
-  padding: 20px 0 0; }
+  cursor: pointer;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+  border-left: 4px solid #ee534f;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+  .module7_right .r_form:hover {
+    background-color: #ee534f;
+    color: #FFF; }
 
 .module7_right .r_form h3 {
   font-size: 22px; }
 
 .module7_right .r_form p {
   font-size: 14px;
-  line-height: 28px;
-  margin-bottom: 10px; }
+  line-height: 28px; }
 
 .module7_right .r_form input,
 .module7_right .r_form button {
@@ -861,8 +818,9 @@ table tr td.td4 {
 
 .pattern-design .pattern-c .btns {
   width: 600px;
-  margin: 0 auto 34px;
-  height: 48px; }
+  height: 48px;
+  margin: 0px auto;
+  margin-top: 30px; }
 
 .pattern-design .pattern-c .btns a {
   display: block;
@@ -1165,8 +1123,7 @@ table tr td.td4 {
   position: relative; }
 
 .pre-test .btnss li.three p.three {
-  font-size: 20px;
-  margin-top: 9px; }
+  font-size: 20px; }
 
 .pre-test .btnss li.four {
   position: relative; }
@@ -1189,17 +1146,12 @@ table tr td.td4 {
 
 .pre-test .btnss li.one p.three,
 .pre-test .btnss li.two p.three,
+.pre-test .btnss li.three p.three,
 .pre-test .btnss li.four p.three {
   font-size: 26px;
   position: absolute;
   top: 76px;
   left: 68px; }
-
-.pre-test .btnss li.three p.three {
-  font-size: 20px;
-  position: absolute;
-  top: 71px;
-  left: 8px; }
 
 .pre-test a.bn {
   display: block;
@@ -1411,9 +1363,9 @@ table tr td.td4 {
   padding: 16px 0; }
 
 .module9 .doc li h4 {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 24px;
-  padding: 10px 0; }
+  padding: 10px 10px; }
 
 .module9 .doc li h4 s {
   font-size: 18px;
@@ -1731,11 +1683,10 @@ table tr td.td4 {
 
 .module10 .table,
 .module10 .aspirations {
-  width: 477px;
+  width: 436px;
   height: 519px;
-  float: left;
   border: 6px solid #fe8227;
-  margin-right: 22px;
+  margin: 0px auto;
   border-radius: 20px;
   overflow: hidden; }
 
@@ -1743,7 +1694,7 @@ table tr td.td4 {
 .module10 .aspirations h3 {
   height: 70px;
   font-size: 28px;
-  background: #fff url(../image/til.png) no-repeat center top;
+  background: url(../image/til.png) no-repeat center top;
   line-height: 52px;
   color: #fff;
   text-align: center;
@@ -1826,11 +1777,12 @@ table tr td.td4 {
 .shuang11 .shuang11-c {
   width: 1000px;
   height: 494px;
-  background-color: #ccc;
   margin: 0 auto; }
 
 .shuang11 .shuang11-c img {
-  margin-left: -175px; }
+  display: block;
+  margin: 0px auto;
+  height: 494px; }
 
 /*13年优质品牌专业*/
 .container {
@@ -1858,7 +1810,7 @@ table tr td.td4 {
   color: #fff; }
 
 .box3 {
-  background: url(../image/box3-bg.jpg) no-repeat center 0;
+  background-color: #fe8227;
   width: 100%;
   height: 527px; }
 
