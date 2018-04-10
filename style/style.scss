@@ -37,8 +37,12 @@ $containerWidth: 1000px;
     width: 1000px;
     margin: 0 auto;
     .h1 {
-      padding: 20px 0;
+      height: 234px;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       h1 {
         font-size: 51px;
         color: #fff;

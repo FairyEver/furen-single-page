@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(base.css);
 .module1 {
   width: 100%;
   margin: 0 auto;
@@ -2120,4 +2119,4 @@ table tr td.td4 {
   color: #fff;
   text-decoration: none; }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=style.css.map */
