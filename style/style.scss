@@ -13,6 +13,12 @@ $containerWidth: 1000px;
     line-height: 54px;
     margin: 0 auto;
     overflow: hidden;
+    .logo {
+        height: 40px;
+        float: left;
+        margin-top: 4px;
+        margin-right: 10px;
+    }
     span {
       display: block;
       font: 400 20px/54px 'Microsoft YaHei';
@@ -2132,15 +2138,16 @@ table tr td.td4 {
     color: #000;
 }
 .box1 .left-left {
-    background: #fff;
-    width: 128px;
+    background: rgba(#FFF, .7);
     text-align: center;
     padding: 5px 0 10px;
     float: left;
+    border-radius: 10px;
 }
 
 .box1 .left-left img {
-
+    height: 140px;
+    margin: 20px;
 }
 .box1  .left-left p {
     color: #333;
