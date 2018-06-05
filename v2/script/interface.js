@@ -27,7 +27,7 @@ $(function(){
 			$(".TC").show();
 		},15000);
 	}
-	// alertTime();
+	alertTime();
 
 	$(document).ready(function() {  
 		var navOffset=$(".nav_wrapper").offset().top;  
