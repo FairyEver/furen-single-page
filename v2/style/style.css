@@ -677,6 +677,205 @@ input[type="number"]{
 	}
 
 
+
+
+
+
+
+/*---------------------------紧急通知-------------------------*/
+.emergency_notice_wrap{
+	width: 100%;
+	height: 460px;
+	position: relative;
+}
+.emergency_notice_wrap .emergency_notice_bd{
+	width: 1160px;
+	margin: 0 auto;
+	min-width: 1160px;
+}
+.emergency_notice_wrap .title_bd{
+	margin: 0 auto;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+.emergency_notice_wrap .title_bd h2{
+	font-size: 52px;
+	color: #545557;
+	font-weight: bold;
+	font-family: "Microsoft YaHei", sans-serif;
+	margin-bottom: 20px;
+}
+.emergency_notice_wrap .title_bd h2 i{
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	background: red;
+	position: relative;
+	top: 7px;
+}
+.emergency_notice_wrap .title_bd h2 .left_{
+	background: url(../image/left_.png) 0 0 no-repeat;
+	background-size: contain;
+	margin-right: 10px;
+}
+.emergency_notice_wrap .title_bd h2 .right_{
+	background: url(../image/right_.png) 0 0 no-repeat;
+	background-size: contain;
+	margin-left: 10px;
+}
+.emergency_notice_wrap .title_bd h2 em{
+	color: #01b8fe;
+	font-weight: bold; 
+}
+.emergency_notice_wrap .title_bd .s_title{
+	font-size: 20px;
+	line-height: 30px;
+	background-color: red;
+	padding: 10px 20px;
+	border-radius: 4px;
+	color: #FFF;
+	font-weight: bold;
+}
+.emergency_notice_wrap .emergency_notice_bd p{
+	text-align: center;
+	line-height: 30px;
+}
+
+.emergency_notice_wrap .emergency_notice_bd ul.item {
+	width: 100%;
+	margin: 15px auto 0;
+}
+.emergency_notice_wrap ul.item li{
+	display: inline-block;
+	width: 23.8%;
+	height: 165px;
+	margin-right: 1%;
+	vertical-align: middle;
+	position: relative;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding:15px;
+}
+.emergency_notice_wrap ul.item li:hover{
+		box-shadow: 0px 15px 40px -20px rgba(1,184,254,.5);
+	-webkit-box-shadow: 0px 15px 40px -20px rgba(1,184,254,.5);
+    -moz-box-shadow: 0px 15px 40px -20px rgba(1,184,254,.5);
+}
+.emergency_notice_wrap ul.item li .tip{
+	display: inline-block;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	font-weight: bold;
+	background: #ff9000;
+}
+.emergency_notice_wrap ul.item li h3{
+	font-weight: bold;
+	font-size: 28px;
+	color: #ff0002;
+	margin: 1px 0 15px 0;
+	text-align: center;
+}
+.emergency_notice_wrap ul.item li .imgbox{
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 150px;
+}
+.emergency_notice_wrap ul.item li .txtbox{
+	padding: 8px 5%;
+	text-align: center;
+	background: #EBEFF1;
+	color: #333;
+	border-radius: 5px;
+	margin-top: 13px;
+}
+.emergency_notice_wrap ul.item li a{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 75%;
+	height: 50px;
+	background: #fff;
+	margin-top: 25px;
+	font-weight: bold;
+	line-height: 50px;
+	border-radius: 50px;
+	color: #01b8fe;
+	font-size: 20px;
+	border: 1px solid #01b8fe;
+}
+.emergency_notice_wrap ul.item li a:hover{
+	background: #ff9000;
+    box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
+	-webkit-box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
+    -moz-box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
+    border-color: #fff;
+    color: #fff;
+}
+.emergency_notice_wrap .bmbox_wrap{
+	width: 1100px;
+    height: 200px;
+    background: url(../image/bm_bg.png) 0 0 no-repeat;
+    margin-top: 30px;
+    position: absolute;
+    bottom: -114px;
+    left: 50%;
+    margin-left: -550px;
+}
+.emergency_notice_wrap .bmbox_wrap .bmbox_bd{
+	width: 520px;
+    height: 60px;
+    margin-left: 200px;
+    padding-top: 50px;
+    float: left;
+    color: #fff;
+    text-shadow: 0 4px 10px #01b8fe;
+    font-size: 22px;
+}
+.emergency_notice_wrap .bmbox_wrap .bmbox_bd strong{
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	margin-top: 5px;
+}
+.emergency_notice_wrap .bmbox_wrap a{
+	display: block;
+	width: 230px;
+    height: 55px;
+    font-size: 28px;
+    line-height: 55px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px #fff solid;
+    float: left;
+    text-shadow: 0 4px 10px #01b8fe;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.emergency_notice_wrap .bmbox_wrap a:hover{
+	background: #fff;
+    border: 2px solid #fff;
+    color: #ff9000;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*---------------------------行业前景样式-------------------------*/
 .money_wrap{
 	width: 100%;
@@ -807,83 +1006,6 @@ input[type="number"]{
     border-color: #fff;
     color: #fff;
 }
-/*.money_wrap .guakao{
-	width: 100%;
-	height: 275px;
-	margin-top: 35px;
-	position: relative;
-}
-.money_wrap .guakao h3{
-	text-align: center;
-	font-size: 25px;
-	padding-top: 30px;
-	font-weight: bold;
-	color: #333;
-}
-.money_wrap .guakao h3:after{
-	content: '';
-	display: inline-block;
-	width: 38px;
-	height: 29px;
-	background: url(../image/hot.png) no-repeat;
-	background-size: contain;
-}
-.money_wrap .guakao .guakao_bd{
-	background: #fff;
-    width: 1160px;
-    margin: 16px auto 0;
-    height: 122px;
-    text-align: center;
-    padding-top: 17px;
-}
-.money_wrap .guakao .guakao_bd ul li{
-    display: inline-block;
-    width: 18%;
-    height: 55px;
-    background: #f6f6f6;
-    margin: 20px 5px 0 5px;
-    line-height: 55px;
-    cursor: pointer;
-    color: #333;
-    font-size: 20px;
-    border-radius: 5px;
-}
-.money_wrap .guakao .guakao_bd ul li span{
-	margin-left: 10px;
-	font-weight: bold;
-	color: #FF7900;
-}
-.money_wrap .guakao .guakao_bd ul li:hover{
-	background: -webkit-linear-gradient(to top, rgba(236,110,18,1) 0%, rgba(255,192,0,1) 100%);
-    background: linear-gradient(to top, rgba(236,110,18,1) 0%, rgba(255,192,0,1) 100%);
-    box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
-	-webkit-box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
-    -moz-box-shadow: 0px 7px 40px -10px rgba(248,162,7,.7);
-    border-color: #fff;
-    color: #fff;  
-}
-.money_wrap .guakao .guakao_bd ul li:hover span{
-	color: #fff;
-}
-.money_wrap .guakao a{
-	display: block;
-	padding: 17px 20px;
-	position: absolute;
-	bottom: -31px;
-	background: #c61a00;
-	border-radius: 50px;
-	color: #FFF;
-	font-size: 20px;
-	left: 0; 
-	right: 0; 
-	margin-left: auto; 
-	margin-right: auto; 
-	text-align: center;
-	width: 240px;
-}
-.money_wrap .guakao a:hover{
-	background: #FA4125;
-}*/
 .money_wrap .bmbox_wrap{
 	width: 1100px;
     height: 200px;
