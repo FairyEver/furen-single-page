@@ -79,7 +79,7 @@ input[type="number"]{
 	height: 70px;
 	line-height: 70px;
 	display: inline-block;
-	background: url(../img/slog.png) no-repeat 0 0;
+	background: url(../image/slog.png) no-repeat 0 0;
 	background-size: cover;
 	text-align: center;
 }
@@ -184,7 +184,7 @@ input[type="number"]{
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background: url(../img/nav_icon_top.png) 0 0 no-repeat;
+	background: url(../image/nav_icon_top.png) 0 0 no-repeat;
 	background-size: contain;
 }
 .nav_wrappers div{
@@ -201,7 +201,7 @@ input[type="number"]{
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	background:url(../img/close.png) 0 0 no-repeat;
+	background:url(../image/close.png) 0 0 no-repeat;
 	background-size: contain;
 	margin: 30px 0 15px 0;
 	-webkit-transition: -webkit-transform .4s ease-out;  
@@ -225,7 +225,7 @@ input[type="number"]{
 	width: 100%;
 	min-width: 1024px;
 	height: 656px;
-	background: url(../img/banner_bg.png);
+	background: url(../image/banner_bg.png);
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
@@ -233,7 +233,7 @@ input[type="number"]{
 .title_wrap{
 	width: 100%;
 	height: 656px;
-	background: url(../img/title.png);
+	background: url(../image/title.png);
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
@@ -272,7 +272,7 @@ input[type="number"]{
 	width: 100%;
 	height: 1190px;
 	position: relative;
-	background: url(../img/con_bg.png) 0 0 no-repeat;
+	background: url(../image/con_bg.png) 0 0 no-repeat;
 	background-size: cover;
 }
 .notice_wrapper .notice_box{
@@ -302,12 +302,12 @@ input[type="number"]{
 	top: 7px;
 }
 .notice_wrapper .title_bd h2 .left_{
-	background: url(../img/left_.png) 0 0 no-repeat;
+	background: url(../image/left_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-right: 10px;
 }
 .notice_wrapper .title_bd h2 .right_{
-	background: url(../img/right_.png) 0 0 no-repeat;
+	background: url(../image/right_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-left: 10px;
 }
@@ -358,25 +358,25 @@ input[type="number"]{
     background: linear-gradient(to right, rgba(1,150,254,1) 0%, rgba(1,209,254,1) 100%);
 }
 .item_all li .item1 .icon{
-	background-image: url(../img/icon1.png);
+	background-image: url(../image/icon1.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: contain;
 }
 .item_all li .item2 .icon{
-	background-image: url(../img/icon2.png);
+	background-image: url(../image/icon2.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: contain;
 }
 .item_all li .item3 .icon{
-	background-image: url(../img/icon3.png);
+	background-image: url(../image/icon3.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: contain;
 }
 .item_all li .item4 .icon{
-	background-image: url(../img/icon4.png);
+	background-image: url(../image/icon4.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: contain;
@@ -500,7 +500,7 @@ input[type="number"]{
 	.time_wrapper{
 		width: 100%;
 		height: 900px;
-		background: url(../img/city_bg.png) 0 0 no-repeat;
+		background: url(../image/city_bg.png) 0 0 no-repeat;
 		background-size: cover;
 	}
 	.time_wrapper .time_box{
@@ -530,12 +530,12 @@ input[type="number"]{
 		top: 7px;
 	}
 	.time_wrapper  .title_bd h2 .left_{
-		background: url(../img/left_.png) 0 0 no-repeat;
+		background: url(../image/left_.png) 0 0 no-repeat;
 		background-size: contain;
 		margin-right: 10px;
 	}
 	.time_wrapper  .title_bd h2 .right_{
-		background: url(../img/right_.png) 0 0 no-repeat;
+		background: url(../image/right_.png) 0 0 no-repeat;
 		background-size: contain;
 		margin-left: 10px;
 	}
@@ -711,12 +711,12 @@ input[type="number"]{
 	top: 7px;
 }
 .money_wrap .title_bd h2 .left_{
-	background: url(../img/left_.png) 0 0 no-repeat;
+	background: url(../image/left_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-right: 10px;
 }
 .money_wrap .title_bd h2 .right_{
-	background: url(../img/right_.png) 0 0 no-repeat;
+	background: url(../image/right_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-left: 10px;
 }
@@ -825,7 +825,7 @@ input[type="number"]{
 	display: inline-block;
 	width: 38px;
 	height: 29px;
-	background: url(../img/hot.png) no-repeat;
+	background: url(../image/hot.png) no-repeat;
 	background-size: contain;
 }
 .money_wrap .guakao .guakao_bd{
@@ -887,7 +887,7 @@ input[type="number"]{
 .money_wrap .bmbox_wrap{
 	width: 1100px;
     height: 200px;
-    background: url(../img/bm_bg.png) 0 0 no-repeat;
+    background: url(../image/bm_bg.png) 0 0 no-repeat;
     margin-top: 30px;
     position: absolute;
     bottom: -114px;
@@ -939,7 +939,7 @@ input[type="number"]{
 	width: 100%;
 	height: 630px;
 	background: #F6F6F6;
-	background: url(../img/sco_bg.png) 0 0 no-repeat;
+	background: url(../image/sco_bg.png) 0 0 no-repeat;
 	background-size: cover;
 }
 .score_bd{
@@ -1046,12 +1046,12 @@ input[type="number"]{
 		top: 7px;
 	}
 	.time_wrap  .title_bd h2 .left_{
-		background: url(../img/left_.png) 0 0 no-repeat;
+		background: url(../image/left_.png) 0 0 no-repeat;
 		background-size: contain;
 		margin-right: 10px;
 	}
 	.time_wrap  .title_bd h2 .right_{
-		background: url(../img/right_.png) 0 0 no-repeat;
+		background: url(../image/right_.png) 0 0 no-repeat;
 		background-size: contain;
 		margin-left: 10px;
 	}
@@ -1249,12 +1249,12 @@ input[type="number"]{
 	top: 7px;
 }
 .reason_bd .title_bd h2 .left_{
-	background: url(../img/left_.png) 0 0 no-repeat;
+	background: url(../image/left_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-right: 10px;
 }
 .reason_bd .title_bd h2 .right_{
-	background: url(../img/right_.png) 0 0 no-repeat;
+	background: url(../image/right_.png) 0 0 no-repeat;
 	background-size: contain;
 	margin-left: 10px;
 }
@@ -1404,7 +1404,7 @@ input[type="number"]{
 	height: 1050px;
 	background: #f7f7f7;
 	margin-top: 80px;
-	background: url(../img/patterns.jpg);
+	background: url(../image/patterns.jpg);
 	background-repeat: repeat;
 }
 .reason_wrap .course .reason{
@@ -1741,27 +1741,27 @@ input[type="number"]{
 	top: 3px;
 }
 .service li h4.s1:before{
-	background: url(../img/sicon1.png) no-repeat 0 0;
+	background: url(../image/sicon1.png) no-repeat 0 0;
 	background-size: contain;
 }
 .service li h4.s2:before{
-	background: url(../img/sicon2.png) no-repeat 0 0;
+	background: url(../image/sicon2.png) no-repeat 0 0;
 	background-size: contain;
 }
 .service li h4.s3:before{
-	background: url(../img/sicon3.png) no-repeat 0 0;
+	background: url(../image/sicon3.png) no-repeat 0 0;
 	background-size: contain;
 }
 .service li h4.s4:before{
-	background: url(../img/sicon4.png) no-repeat 0 0;
+	background: url(../image/sicon4.png) no-repeat 0 0;
 	background-size: contain;
 }
 .service li h4.s5:before{
-	background: url(../img/sicon5.png) no-repeat 0 0;
+	background: url(../image/sicon5.png) no-repeat 0 0;
 	background-size: contain;
 }
 .service li h4.s6:before{
-	background: url(../img/sicon6.png) no-repeat 0 0;
+	background: url(../image/sicon6.png) no-repeat 0 0;
 	background-size: contain;
 }
 
@@ -1863,7 +1863,7 @@ input[type="number"]{
 	position: relative;
 	top: 3px;
 	margin-right: 20px;
-	background:url(../img/tel.png) no-repeat 0 0 ;
+	background:url(../image/tel.png) no-repeat 0 0 ;
 	background-size: contain;
 }
 .footer .footerbd .txtbox2 p.mail:before{
@@ -1874,7 +1874,7 @@ input[type="number"]{
 	position: relative;
 	top: 3px;
 	margin-right: 20px;
-	background:url(../img/mail.png) no-repeat 0 0 ;
+	background:url(../image/mail.png) no-repeat 0 0 ;
 	background-size: contain;
 }
 
@@ -1885,7 +1885,7 @@ input[type="number"]{
     display: none;
     width: 100%;
     height: 100%;
-    background: url(../img/Tcbg.png);
+    background: url(../image/Tcbg.png);
     position: fixed;
     top: 0;
     z-index: 99999;
@@ -1899,7 +1899,7 @@ input[type="number"]{
     height: 450px;
     margin-top: -255px;
     margin-left: -350px;
-    background: url(../img/tc.png) no-repeat center;
+    background: url(../image/tc.png) no-repeat center;
     z-index: 10;
 }
 .mail_wrap em {
@@ -1939,7 +1939,7 @@ input[type="number"]{
 	display:block;
 	 
 }
-.rightF span{ width:50px; height:50px; display:block; text-align:center; background:url(../img/right_x.png) no-repeat center center;}
+.rightF span{ width:50px; height:50px; display:block; text-align:center; background:url(../image/right_x.png) no-repeat center center;}
 .closeL {
     position: absolute;
     top: 13px;
