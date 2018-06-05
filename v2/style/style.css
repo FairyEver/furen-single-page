@@ -499,7 +499,7 @@ input[type="number"]{
 /*--------------------------------------------------区域选择 时间样式------------*/
 	.time_wrapper{
 		width: 100%;
-		height: 900px;
+		height: 600px;
 		background: url(../image/city_bg.png) 0 0 no-repeat;
 		background-size: cover;
 	}
@@ -1449,9 +1449,10 @@ input[type="number"]{
 }
 /*--------------------------------------老师师资*/
 
+.reason_bd .teacher ul {margin: 0px auto;width: 1000px;}
 .reason_bd .teacher li{
-	width: 20%;
-	margin-right: 6%;
+	width: 30%;
+	margin-right: 3.3%;
 	display: inline-block;
 	text-align: center;
 	position: relative;
@@ -1465,7 +1466,7 @@ input[type="number"]{
 	margin: 0 auto;
 }
 .reason_bd .teacher .txtbox {
-	height: 270px;
+	height: 230px;
 	width: 100%;
 	background: #f7f7f7;
 	margin-top: -60px;
@@ -1473,7 +1474,7 @@ input[type="number"]{
 	border-radius: 10px;
 	box-shadow: 0px 15px 40px -20px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0px 15px 40px -20px rgba(0,0,0,.3);
-    -moz-box-shadow: 0px 15px 40px -20px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 15px 40px -20px rgba(0,0,0,.3);
 }
 .reason_bd .teacher li .txtbox:hover{
 	background: #E4F5FF;
@@ -1525,7 +1526,7 @@ input[type="number"]{
 	width: 100%;
 	height: 1050px;
 	background: #f7f7f7;
-	margin-top: 80px;
+	margin-top: 0px;
 	background: url(../image/patterns.jpg);
 	background-repeat: repeat;
 }
@@ -1750,7 +1751,7 @@ input[type="number"]{
 .reason_wrap .service .reason{
 	width: 1160px;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 0px;
 }
 .reason_wrap .service .heading{
 	width: 1160px;
